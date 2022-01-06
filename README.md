@@ -4,7 +4,7 @@
 <br>
 
 * A biblioteca pandas foi utilizada para trabalhar melhor o relatório que será importado.
-* Foi utilizado o Pyinstaller para criar um arquivo excecutável, e assim, não será necessário ter o Python instalado no computador para poder utilizar o programa.
+* Foi utilizado o Pyinstaller para criar um arquivo executável, e assim, não será necessário ter o Python instalado no computador para poder utilizar o programa.
 * Os campos do Header (registro C1) são imputados pelo operador, facilitando assim a utilização.
 * O registro C4 está desabilitado, pois as informações contidas nele não eram preenchidas no processo manual.
 * Algumas linhas do código precisam de melhorias, a princípio o código foi escrito no Jupyter Notebook e posteriormente transferido para o Pycharm.
@@ -36,8 +36,12 @@ As informações usadas para criar o layout do arquivo txt foram retiradas no ma
 [modelo.xlsx](https://github.com/MarceloPalumbo/rpc/files/7818806/modelo.xlsx)
 
 <br><br>
-<b>Visualização do arquivo excecutável</b> <br><br>
+<b>Visualização do arquivo executável</b> <br><br>
 
 ![exe](https://user-images.githubusercontent.com/86494924/148314486-96627ec7-b04d-4bd2-a55a-ec1c254a2127.png)
 
+<br><br><b> Para criação do executável</b><br><br>
+
+- Instalar o Pyinstaller (pip install pyinstaller)
+- Executar no terminal (pyinstaller --onefile .\rpc.py)
 
